@@ -32,5 +32,5 @@ mongoose.connect(mongoUri)
 
 // ✅ IMPORTANT: always start server
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log("SERVER STARTED ON PORT:", PORT);
 });
